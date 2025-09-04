@@ -1,25 +1,14 @@
 {
   "name": "command-pattern-restaurant",
   "version": "1.0.0",
-  "description": "Simple Command Pattern implementation using restaurant analogy",
+  "description": "Command Pattern implementation using restaurant analogy",
   "main": "dist/main.js",
   "scripts": {
-    "start": "ts-node main.ts",
-    "demo": "ts-node demo.ts",
-    "dev": "ts-node main.ts",
+    "start": "ts-node src/main.ts",
+    "demo": "ts-node src/demo.ts",
     "build": "tsc",
-    "run": "node dist/main.js",
     "clean": "rm -rf dist"
   },
-  "keywords": [
-    "command-pattern",
-    "design-patterns",
-    "typescript",
-    "restaurant",
-    "simple-example"
-  ],
-  "author": "Your Name",
-  "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.0.0",
     "ts-node": "^10.9.0",
